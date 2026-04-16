@@ -1,0 +1,1 @@
+Eat Right 4 Your Type by Dr. Peter J. D’Adamo is a groundbreaking book that reveals how your blood type (O, A, B, or AB) is the key to understanding which foods are highly beneficial, neutral, or harmful to your bod
