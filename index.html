@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Type Diet Guide • Eat Right 4 Your Type</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="nav">
+                <h1 class="logo">🩸 Blood Type Diet Guide</h1>
+                <nav>
+                    <a href="#about">About the Book</a>
+                    <a href="#why">Why I Published</a>
+                    <a href="#articles">Articles</a>
+                    <a href="#rate">Rate This Guide</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <h2>Discover the Diet Your Blood Type Was Designed For</h2>
+            <p class="subtitle">Complete guides based on <strong>Eat Right 4 Your Type</strong> — now easier than ever.</p>
+            <a href="#articles" class="cta-button">Explore All Articles</a>
+        </div>
+    </section>
+
+    <!-- ABOUT THE BOOK -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About the Book</h2>
+            <div class="content-grid">
+                <div class="text">
+                    <p><strong>Eat Right 4 Your Type</strong> by Dr. Peter J. D’Adamo is a groundbreaking book that reveals how your blood type (O, A, B, or AB) is the key to understanding which foods are highly beneficial, neutral, or harmful to your body.</p>
+                    <p>Based on evolutionary biology, lectin science, and digestive chemistry, the book shows that the same food can be medicine for one blood type and a toxin for another. It also covers personalized exercise recommendations, stress responses, weight-loss strategies, and long-term health insights tailored to each blood type.</p>
+                    <p>Over 20 years later, millions of people worldwide still use these principles to improve energy, digestion, immunity, and weight management.</p>
+                </div>
+                <div class="book-visual">
+                    <img src="/home/nick/Documents/eatright/cover.jpg" 
+                     alt="Eat Right 4 Your Type book cover" 
+                     class="book-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY I PUBLISHED -->
+   <section id="why" class="section bg-alt">
+    <div class="container">
+        <h2>Why I Created & Published These Articles</h2>
+        
+        <div class="why-grid">
+            
+            <!-- Left: Story -->
+            <div class="reason-text">
+                <p>A little over a year ago, a close friend excitedly told me about a “blood type diet” that had completely changed how she felt every day. Curious, I bought <em>Eat Right 4 Your Type</em> by Dr. Peter J. D’Adamo the very next day.</p>
+
+                <p>What I discovered inside blew me away. This wasn’t just another diet book — it was a groundbreaking revelation that your blood type is like a hidden code written into your DNA. It explains why the same food can be healing medicine for one person and a silent toxin for another, all rooted in evolutionary biology, lectin science, and the unique way each blood type digests, stores fat, handles stress, and responds to exercise.</p>
+
+                <p>The more I read, the more inspired I became. For the first time, nutrition finally made sense on a personal level. I experienced the difference myself — clearer energy, better digestion, easier weight management, and a deep sense of eating in harmony with my body. I knew I couldn’t keep this powerful knowledge to myself. So I created these clear, beautifully organized articles — distilling the book’s science into simple, practical guides for every blood type. My mission is simple: help you discover the same life-changing feeling of finally eating and moving the way nature designed you to.</p>
+
+                <p>The original book is dense and scientific, so I created clear, beautifully organized articles that break down the exact foods to eat or avoid for each blood type, plus the best exercises and weight-loss strategies.</p>
+                <p>I published them on Substack so readers can easily find, save, and share the information that changed my life. My goal is simple: help you feel your best by eating and moving in harmony with your blood type.</p>
+            </div>
+
+            <!-- Right: Your Portrait + Contact Info -->
+            <div class="author-card">
+                <img src="/home/nick/Documents/eatright/profile.jpg" 
+                     alt="Your Portrait" 
+                     class="portrait">
+                <h3>Ngekenya Nick</h3>
+                <p class="contact-info">
+                    <i class="fas fa-envelope"></i> 
+                    <a href="mailto:your@email.com">nickngekenya@gmail.com</a>
+                </p>
+                <p class="contact-info">
+                    <i class="fas fa-phone"></i> 
+                    (+254) 712620585
+                </p>
+                <p class="author-bio">Creator of the Blood Type Diet Guide</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- ARTICLES SUMMARY -->
+    <section id="articles" class="section">
+        <div class="container">
+            <h2>Complete Blood Type Diet Articles</h2>
+            <div class="articles-grid" id="articles-grid">
+                <!-- Populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- RATING SECTION -->
+    <section id="rate" class="section bg-alt">
+        <div class="container">
+            <h2>Rate This Guide</h2>
+            <p class="rating-subtitle">How helpful were these Blood Type Diet articles?</p>
+            
+            <div class="rating-box">
+                <div class="stars" id="stars">
+                    <i class="far fa-star" data-value="1"></i>
+                    <i class="far fa-star" data-value="2"></i>
+                    <i class="far fa-star" data-value="3"></i>
+                    <i class="far fa-star" data-value="4"></i>
+                    <i class="far fa-star" data-value="5"></i>
+                </div>
+                
+                <button onclick="submitRating()" class="submit-rating-btn">Submit Rating</button>
+                
+                <div class="rating-stats" id="rating-stats">
+                    <p><strong id="average">4.9</strong> / 5 — Based on <strong id="total-votes">142</strong> ratings</p>
+                </div>
+            </div>
+            
+            <p class="thank-you" id="thank-you" style="display:none;">Thank you! Your rating has been saved.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Blood Type Diet Guide • All guides based on <em>Eat Right 4 Your Type</em> by Dr. Peter J. D’Adamo</p>
+            <p>Originally Published at <a href="https://substack.com/@ngekenyanick?utm_campaign=profile&utm_medium=profile-page" target="_blank">Substack</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
